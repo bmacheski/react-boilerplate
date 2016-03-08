@@ -1,16 +1,14 @@
-'use strict';
+'use strict'
 
-import React from 'react';
-
-// RouteHandler is gone. Router now automatically
-// populates this.props.children of your components based on the active route.
+import React from 'react'
 
 export default React.createClass({
-  render: function() {
+  render() {
     return (
       <div>
+        <h1>App</h1>
         {this.props.children}
       </div>
     )
   }
-});
+})

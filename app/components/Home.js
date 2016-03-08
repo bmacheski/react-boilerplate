@@ -1,13 +1,13 @@
-'use strict';
+'use strict'
 
-import React from 'react';
+import React from 'react'
 
 export default React.createClass({
-  render: function() {
+  render() {
     return (
       <div>
-        <h1> Hello World </h1>
+        <h1>Home</h1>
       </div>
     )
   }
-});
+})

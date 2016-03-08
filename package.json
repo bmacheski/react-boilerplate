@@ -4,15 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack -w"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "history": "^2.0.1",
     "node-libs-browser": "^0.5.3",
     "react": "^0.14.0",
     "react-dom": "^0.14.2",
-    "react-router": "^1.0.0-rc3",
+    "react-router": "^1.0.3",
     "webpack": "^1.12.2"
   },
   "devDependencies": {
