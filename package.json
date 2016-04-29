@@ -1,19 +1,19 @@
 {
   "name": "react-boilerplate",
   "version": "1.0.0",
-  "description": "",
+  "description": "React boilerplate",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack -w"
   },
-  "author": "",
+  "author": "Brian Macheski <bwm0007@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "history": "^2.0.1",
     "node-libs-browser": "^0.5.3",
-    "react": "^0.14.0",
-    "react-dom": "^0.14.2",
+    "react": "^0.14.8",
+    "react-dom": "^0.14.8",
     "react-router": "^1.0.3",
     "webpack": "^1.12.2"
   },

@@ -1,14 +1,15 @@
-'use strict'
+import React, { Component } from 'react';
 
-import React from 'react'
+class Main extends Component {
 
-export default React.createClass({
   render() {
     return (
       <div>
         <h1>App</h1>
         {this.props.children}
       </div>
-    )
+    );
   }
-})
+}
+
+export default Main;

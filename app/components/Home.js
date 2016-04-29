@@ -1,13 +1,14 @@
-'use strict'
+import React, { Component } from 'react';
 
-import React from 'react'
+class Home extends Component {
 
-export default React.createClass({
   render() {
     return (
       <div>
         <h1>Home</h1>
       </div>
-    )
+    );
   }
-})
+}
+
+export default Home;
