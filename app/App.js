@@ -3,8 +3,9 @@ import Router from 'react-router';
 import ReactDOM from 'react-dom';
 import routes from './config/routes';
 
-ReactDOM.render((
+ReactDOM.render(
   <Router>
     {routes}
-  </Router>
-), document.getElementById('app'));
+  </Router>,
+  document.getElementById('app')
+);
